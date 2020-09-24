@@ -4,7 +4,7 @@ public class Main {
         double weight = 87;
         double growth = 1.68;
 
-        double imb = service.calculate(87, 1.68);
+        double imb = service.calculate(weight, growth);
 
         System.out.println(imb);
 
